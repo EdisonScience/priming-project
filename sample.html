@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>Ensayo de familiarización</title>
+</head>
+<body>
+	<div style="height: 20px"><h1 id="timer" style="text-align: center;margin:0;"></h1></div>
+		<img id="divImg" class="form">
+		<form class="form" id="form" action="dates.html" name="contacto" method="post">
+			<h5 style="margin: 0 0 1em -65px;">¿Qué emoción le produce?</h5>
+			<input type="radio" name="nnao" value="Ira">Ira <br>
+			<input type="radio" name="nnao" value="Alegría">Alegría<br>
+			<input type="radio" name="nnao" value="Miedo">Miedo<br>
+			<input type="radio" name="nnao" value="Asco">Asco<br>
+			<input type="radio" name="nnao" value="Sorpresa">Sorpresa<br>
+			<input type="radio" name="nnao" value="Tristeza">Tristeza<br>
+			<input type="submit" value="Siguiente">
+		</form>
+		<h3 style="margin: 80px; font-weight: unset;" class="form" id='explain'>Como se puede notar este ensayo no tiene tiempo límite y no redirecciona a otro ensayo. Si el proceso no quedó claro por favor refresque esta página para comprenderlo. En los siguientes ensayos, <b>sí</b> habrá tiempo límite de 10 segundos y se redireccionará de forma automática al siguiente ensayo. Se recomienda nuevamente que se responda una opción en el transcurso anterior a los 10 segundos, y luego <b>dar click en ‘Siguiente’.<b></h3>
+		<script>
+			/*ROJO*/
+		var listaImg = new Array('https://th.bing.com/th/id/OIP.piq_XA1ZQAp3GEaEurp69wHaEe?w=247&h=180&c=7&o=5&pid=1.7name="nnao" ', 
+ 	'http://rectoria.unal.edu.co/fileadmin/user_upload/Dolly-Montoya-Castano.png');
+		setTimeout(()=>{location.replace("http://localhost/priming-project/dates0.php");}, 170000000);
+		let h5=document.getElementById('explain');
+		let expAppear=()=>{
+			h5.classList.remove('form');
+		};
+		setTimeout(expAppear, 17000);
+		</script>
+	
+<script src="script.js"></script>
+</body>
+</html>
